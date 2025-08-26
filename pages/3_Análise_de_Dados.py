@@ -1,8 +1,10 @@
 import streamlit as st
 import pandas as pd
 
-st.logo("RM.png", size="large")
-st.sidebar.image("logo.png", width=150)
+st.logo("./img/RM.png", size="large")
+col1, col2, col3 = st.columns([2, 0.1, 2])  # coluna do meio é mais estreita
+with col2:
+    st.sidebar.image("./img/logo.png", use_container_width=True)
 # Função para carregar o dataset
 @st.cache_data
 def load_data():
