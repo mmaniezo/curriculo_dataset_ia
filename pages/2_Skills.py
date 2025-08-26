@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.logo("RM.png", size="large")
+st.sidebar.image("logo.png", width=150)
 st.title("Minhas Skills")
 
 st.subheader("Hard Skills")

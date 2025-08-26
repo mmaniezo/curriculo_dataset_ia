@@ -8,9 +8,9 @@ st.logo("RM.png", size="large")
 st.image("logo.png", width=200)
 
 # Conteúdo da Home
-st.title("Olá, eu sou o Rafa 👋")
+st.title("Olá, eu sou o Rafael 👋")
 st.subheader("Objetivo Profissional")
 st.write("""
-Sou estudante de Engenharia de Software com foco em Data Science.  
-Apaixonado por análise de dados, machine learning e soluções que unem tecnologia e inovação.
+Sou estudante de Engenharia de Software e este projeto tem um foco em Data Science.  
+Sou apaixonado por análise de dados, machine learning e soluções que unem tecnologia, inovação e diversas outras técnologias!.
 """)

@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.logo("RM.png", size="large")
+st.sidebar.image("logo.png", width=150)
 # Função para carregar o dataset
 @st.cache_data
 def load_data():
