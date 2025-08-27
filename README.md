@@ -1,4 +1,4 @@
-<h2 align="center">Currículo com Dataset IA</h2>
+<h1 align="center">Currículo com Dataset IA</h1>
 <div align="center" width="100px">
 
 ![image](https://github.com/mmaniezo/curriculo_dataset_ia/blob/main/img/logo.png)
@@ -6,14 +6,19 @@
 
 </div>
 
-### Engenharia de Software - FIAP - 1ESA
+### Engenharia de Software - FIAP - 2ESA
 
 
 ## Tecnologias
-![image](https://docs.streamlit.io/logo.svg)<h3>Streamlit</>
+<div display="flex">
+
+![image](https://docs.streamlit.io/logo.svg)<h3>Streamlit<h3/>
+
+</div>
+
 
 ### Autor
-Rafael de Mônaco Maniezo - RM: 556079<br>
+Rafael de Mônaco Maniezo - RM: 556079
 
 ### Descrição
 <p>Esse projeto é um currículo com uma análise dos dados feitos com o Streamlit</p>
