@@ -121,8 +121,10 @@ try:
 
     st.write("""
     **Resposta:**  
-    A distribuição é relativamente simétrica com leve concentração entre US 78k e US 104k. 
-    A média e mediana próximas indicam baixa assimetria.
+    A distribuição é relativamente simétrica com uma pequena concentração entre US 78k e US 104k. 
+    A média e mediana próximas indicam baixa assimetria. Isso quer dizer que não há concentração 
+    exagerada de valores extremos distorcendo a análise. A moda por outro lado não se encaixa muito bem aqui, já que a 
+    repetição de valores rara.
     """)
 
 
@@ -141,8 +143,9 @@ try:
 
     st.write("""
     **Resposta:**  
-    Níveis **High** de adoção de IA apresentam maior variação e salários médios mais altos, 
-    sugerindo que empresas com maior integração de IA pagam melhor.
+    O desvio padrão e o coeficiente de variação indicam uma variabilidade moderada no mercado. Isso significa que, embora tenha diferenças salariais, a maior parte dos cargos está concentrada em torno da média.
+    Os valores concentrados no gráfico reforçam essa análise, mostrando que 50 por cento dos salários estão dentro de um intervalo de aproximadamente US$ 25 mil, caracterizando um mercado relativamente parecido
+     para grande parte dos profissionais. Os outliers presentes especialmente no topo, indicam algumas oportunidades com rendas significativamente acima da média, mas que não impactam fortemente a tendência geral do mercado.
     """)
 
     st.subheader("- Existe alguma dispersão significativa nos salários?")
@@ -161,8 +164,9 @@ try:
 
     st.write("""
     **Resposta:**  
-    Empresas de porte **Large** apresentam maior média salarial e também maior dispersão. 
-    **Small** e **Medium** concentram salários em faixas mais baixas.
+    Empresas **Small** pagam salários ligeiramente mais altos (US 92,1 mil) e apresentam **maior dispersão**, 
+    enquanto empresas **Large** têm médias um pouco menores (US 90,6 mil) e **variabilidade mais baixa**, 
+    refletindo políticas salariais mais padronizadas.
     """)
 
 
@@ -183,10 +187,22 @@ try:
     )
     st.plotly_chart(fig_jobs, use_container_width=True)
 
+    fig_risk = px.box(
+        df, x="Automation_Risk", y="Salary_USD",
+        color="Automation_Risk",
+        title="Distribuição de Salários por Risco de Automação",
+        labels={"Automation_Risk": "Risco de Automação", "Salary_USD": "Salário (USD)"},
+        color_discrete_sequence=px.colors.qualitative.Set1
+    )
+    st.plotly_chart(fig_risk, use_container_width=True)
+
     st.write("""
     **Resposta:**  
-    Os cargos mais comuns são **AI Researcher** e **Cybersecurity Analyst**, 
-    refletindo alta demanda nessas áreas no mercado de IA.
+    Os cargos mais com mais vagas são **Data Science** e **HR Manager**, 
+    refletindo alta demanda nessas áreas no mercado de IA. Cargos com **alto risco de automação** apresentam os **maiores salários médios (US 93,9 mil)**, 
+    seguidos pelos cargos de baixo risco.  
+    Já funções classificadas como **risco médio** têm **média menor (US 87,7 mil)** e **dispersão mais alta**, 
+    refletindo diversidade de cargos e níveis de experiência dentro dessa categoria.
     """)
 
     # --- 6. Correlação (Salário) ---
