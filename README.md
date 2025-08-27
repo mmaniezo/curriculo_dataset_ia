@@ -6,11 +6,7 @@
 </div>
 
 
-<h2 align="center">
-
-### Engenharia de Software - FIAP - 2ESA
-
-</h2>
+<h2 align="center">Engenharia de Software - FIAP - 2ESA</h2>
 
 
 ## Tecnologias
