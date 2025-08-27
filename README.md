@@ -6,15 +6,11 @@
 </div>
 
 
-<h2 align="center">Engenharia de Software - FIAP - 2ESA</h2>
+<p align="center">Engenharia de Software - FIAP - 2ESA</p>
 
 
 ## Tecnologias
-<div style="display=flex;">
-
-![image](https://docs.streamlit.io/logo.svg)<h3>Streamlit<h3/>
-
-</div>
+![image](https://docs.streamlit.io/logo.svg)Streamlit
 
 
 ### Autor
