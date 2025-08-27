@@ -6,15 +6,15 @@
 </div>
 
 
-<div text-align="center">
+<h2 align="center">
 
 ### Engenharia de Software - FIAP - 2ESA
 
-</div>
+</h2>
 
 
 ## Tecnologias
-<div style="display="flex;">
+<div style="display=flex;">
 
 ![image](https://docs.streamlit.io/logo.svg)<h3>Streamlit<h3/>
 
