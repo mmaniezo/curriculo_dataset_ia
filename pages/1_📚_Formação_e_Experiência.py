@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(layout="centered")
+
 st.logo("./img/RM.png", size="large")
 col1, col2, col3 = st.columns([2, 0.1, 2])  # coluna do meio é mais estreita
 with col2:
