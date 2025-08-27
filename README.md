@@ -3,14 +3,18 @@
 
 ![image](https://github.com/mmaniezo/curriculo_dataset_ia/blob/main/img/logo.png)
 
-
 </div>
+
+
+<div align="center">
 
 ### Engenharia de Software - FIAP - 2ESA
 
+</div>
+
 
 ## Tecnologias
-<div display="flex">
+<div style="display="flex";">
 
 ![image](https://docs.streamlit.io/logo.svg)<h3>Streamlit<h3/>
 
