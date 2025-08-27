@@ -6,7 +6,7 @@
 </div>
 
 
-<div align="center">
+<div text-align="center">
 
 ### Engenharia de Software - FIAP - 2ESA
 
@@ -14,7 +14,7 @@
 
 
 ## Tecnologias
-<div style="display="flex";">
+<div style="display="flex;">
 
 ![image](https://docs.streamlit.io/logo.svg)<h3>Streamlit<h3/>
 
@@ -25,5 +25,5 @@
 Rafael de Mônaco Maniezo - RM: 556079
 
 ### Descrição
-<p>Esse projeto é um currículo com uma análise dos dados feitos com o Streamlit</p>
-<p>Os dados análisados foram de insights da Inteligência Atificial no mercado de trabalho</p>
+<p>Esse projeto é um currículo com uma análise dos dados feitos com o Streamlit.</p>
+<p>Os dados análisados foram de insights da Inteligência Atificial no mercado de trabalho.</p>
